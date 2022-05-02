@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ZTCN.360</title>
+    <link>https://ztcn360.github.io/post/</link>
+    <description>Recent content in Posts on ZTCN.360</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ztcn360.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Update This Blog</title>
+      <link>https://ztcn360.github.io/post/note20220420how-to-update-this-blog/</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/post/note20220420how-to-update-this-blog/</guid>
+      <description>This blog is built by Hugo and deployed to GitHub Pages. When updating new contents, I use Git pushing everything to the GitHub repository, and here are some memo to myself:
+#1 Write a post
+ Open cmd, cd to hugo blog local folder.  hugo new posts/“new post.md” Open “new post”. Start writing by using a markdown editor (recommended).  #2 Preview
+hugo server -D  Make sure everything works fine.</description>
+    </item>
+    
+    <item>
+      <title>Switch Between Multiple GitHub Accounts With SSH Keys</title>
+      <link>https://ztcn360.github.io/post/2022-04-01-switch-between-multiple-github-accounts-with-ssh-keys/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/post/2022-04-01-switch-between-multiple-github-accounts-with-ssh-keys/</guid>
+      <description>The following are some commands I use frequently when I switch between different GitHub accounts on my Mac.
+ Use the following command to set a default Git account:  Git config –global user.name &amp;quot;username1&amp;quot; Git config –global user.email &amp;quot;useremail1&amp;quot; Use the following command to switch to another Git account temporarily.  Git config user.name &amp;quot;username1&amp;quot; Git config user.email &amp;quot;useremail1&amp;quot; Use the following command to check what is the current Git account:  ssh -T git@github.</description>
+    </item>
+    
+    <item>
+      <title>[git push -u origin main] Doesn’t Work </title>
+      <link>https://ztcn360.github.io/post/2022-03-31-git-push-u-origin-main-doesnt-%5Cwork/</link>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/post/2022-03-31-git-push-u-origin-main-doesnt-%5Cwork/</guid>
+      <description>Background: GitHub changed their default branch name from “master” to “main”, but strangely, git push -u origin main doesn’t work on my Mac. git push -u origin masterworks fine, but this command automatically creates an unnecessary “master” branch for me. I want to figure out how to use the git push command to push code to the “main” branch.
+Solution: I tried “git merge,” but it does not work. The following solution works for me:</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://ztcn360.github.io/post/2022-03-20-hello-world/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/post/2022-03-20-hello-world/</guid>
+      <description>Hi there! Welcome to my blog. I built this blog for sharing my readings and notes on editing technnical documentations. Hope you find some posts useful. Feel free to get in touch!</description>
+    </item>
+    
+  </channel>
+</rss>

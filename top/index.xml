@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tops on ZTCN.360</title>
+    <link>https://ztcn360.github.io/top/</link>
+    <description>Recent content in Tops on ZTCN.360</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ztcn360.github.io/top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://ztcn360.github.io/top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/top/about/</guid>
+      <description>I&amp;rsquo;m a technical communicator based in China.
+I would like to publish blog posts about: web design, editorial layout design, technical communications, etc.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ztcn360.github.io/top/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/top/books/</guid>
+      <description>Books Technical Writing Process</description>
+    </item>
+    
+    <item>
+      <title>Posts Archive</title>
+      <link>https://ztcn360.github.io/top/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/top/archive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
