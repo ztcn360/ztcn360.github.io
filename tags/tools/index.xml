@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ztcn360.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Update This Blog</title>
-      <link>https://ztcn360.github.io/post/note20220420how-to-update-this-blog/</link>
+      <link>https://ztcn360.github.io/post/2022-04-20-how-to-update-this-blog/</link>
       <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ztcn360.github.io/post/note20220420how-to-update-this-blog/</guid>
+      <guid>https://ztcn360.github.io/post/2022-04-20-how-to-update-this-blog/</guid>
       <description>This blog is built by Hugo and deployed to GitHub Pages. When updating new contents, I use Git pushing everything to the GitHub repository, and here are some memo to myself:
 #1 Write a post
  Open cmd, cd to hugo blog local folder.  hugo new posts/“new post.md” Open “new post”. Start writing by using a markdown editor (recommended).  #2 Preview
