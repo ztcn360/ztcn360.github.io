@@ -211,30 +211,11 @@
                 <p><strong>Background:</strong> GitHub changed their default branch name from “master” to “main”, but strangely, <code>git push -u origin main</code> doesn’t work on my Mac. <code>git push -u origin master</code>works fine, but this command automatically creates an unnecessary “master” branch for me. I want to figure out how to use the git push command to push code to the “main” branch.</p>
 <p><strong>Solution:</strong> I tried “git merge,” but it does not work. The following solution works for me:</p>
 <pre><code class="language-git" data-lang="git">
-# Step 1
-# Add a file in the project such as README.md, set the branch to main
+# force the current HEAD to the main branch
+git push -f origin HEAD:main
 
-git commit -m “added README.md”
-git branch -M main 
-
-# The &quot;-M&quot;  is to rename the project branch if I don’t want it to be called master
-
-# Step 2
-# push the main branch to the remote GitHub repo
-git push -u origin main
-
-
-# Step 3
-# switch the current HEAD to the main branch
-git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
-
-
-# Step 4
-# change the default branch on GitHub to main
-
-# Step 5
-# delete the master branch on the remote
-git push origin --delete master
+# push to main branch
+git push origin main
 
 </code></pre><p><strong>Related Posts:</strong></p>
 <p><a href="https://stackoverflow.com/questions/65173291/git-push-error-src-refspec-main-does-not-match-any-on-linux">git push error: src refspec main does not match any on linux</a> (2021)</p>
