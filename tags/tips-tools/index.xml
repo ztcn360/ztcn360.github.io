@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips &amp; Tools on ZTCN.360</title>
+    <link>https://ztcn360.github.io/tags/tips-tools/</link>
+    <description>Recent content in Tips &amp; Tools on ZTCN.360</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ztcn360.github.io/tags/tips-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Turned My To-Do List Into a To-Read List</title>
+      <link>https://ztcn360.github.io/post/i-turned-my-todoist-into-tore-toread-list/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/post/i-turned-my-todoist-into-tore-toread-list/</guid>
+      <description>I have several experiences of trying some 100-day-challenges, and unfortunately, most of them failed. I switched to the 30-day-challenges, but I still failed. When I skipped one day, I quickly lost the passion for catching up on the next day. Such a vicious circle certainly dulls my motivation. It hurts.
+At a certain point in my life (Actually, just yesterday), I made a pivot change in my To-Do list app (I use “Todoist”).</description>
+    </item>
+    
+    <item>
+      <title>[git push -u origin main] Doesn’t Work </title>
+      <link>https://ztcn360.github.io/post/2022-05-02-git-push-u-origin-main-doesnt-%5Cwork/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/post/2022-05-02-git-push-u-origin-main-doesnt-%5Cwork/</guid>
+      <description>Background: GitHub changed their default branch name from “master” to “main”, but strangely, git push -u origin main doesn’t work on my Mac. git push -u origin masterworks fine, but this command automatically creates an unnecessary “master” branch for me. I want to figure</description>
+    </item>
+    
+    <item>
+      <title>How to Update This Blog</title>
+      <link>https://ztcn360.github.io/post/2022-04-20-how-to-update-this-blog/</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/post/2022-04-20-how-to-update-this-blog/</guid>
+      <description>This blog is built by Hugo and deployed to GitHub Pages. When updating new contents, I use Git pushing everything to the GitHub repository, and here are some memo to myself: #1 Write a post Open cmd, cd to hugo blog local folder. hugo new posts/“new post.md” Open “new po</description>
+    </item>
+    
+    <item>
+      <title>Switch Between Multiple GitHub Accounts With SSH Keys</title>
+      <link>https://ztcn360.github.io/post/2022-04-01-switch-between-multiple-github-accounts-with-ssh-keys/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztcn360.github.io/post/2022-04-01-switch-between-multiple-github-accounts-with-ssh-keys/</guid>
+      <description>The following are some commands I use frequently when I switch between different GitHub accounts on my Mac. Use the following command to set a default Git account: Git config –global user.name &amp;quot;username1&amp;quot; Git config –global user.email &amp;quot;useremail1&amp;quot; Use the following command to switch to another Git account temporarily. Git config user.name &amp;quot;username1&amp;quot; Git config user.email &amp;quot;useremail1&amp;quot; Use</description>
+    </item>
+    
+  </channel>
+</rss>

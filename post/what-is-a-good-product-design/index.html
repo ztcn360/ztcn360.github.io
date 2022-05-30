@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="ZTCN.360">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://ztcn360.github.io/img/cover01.jpg">
+    <meta property="twitter:image" content="https://ztcn360.github.io/img/cover01.jpg" />
+    
+
+    
+    <meta name="title" content="优秀的产品与良好的心智模型" />
+    <meta property="og:title" content="优秀的产品与良好的心智模型" />
+    <meta property="twitter:title" content="优秀的产品与良好的心智模型" />
+    
+
+    
+    <meta name="description" content="Zoey&#39;s Notes on design and tech innovation">
+    <meta property="og:description" content="Zoey&#39;s Notes on design and tech innovation" />
+    <meta property="twitter:description" content="Zoey&#39;s Notes on design and tech innovation" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>优秀的产品与良好的心智模型-writings on product design &amp; tech innovation</title>
+
+    <link rel="canonical" href="/post/what-is-a-good-product-design/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">ZTCN.360</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/blog">blog</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/books/">LINKS</a></li>
+                    
+                        <li><a href="/top/archive/">ARCHIVE</a></li>
+                    
+                        <li><a href="/top/about/">ABOUT ME</a></li>
+                    
+
+                    
+		    <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/cover01.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/writing" title="Writing">
+                            Writing
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E8%AE%BE%E8%AE%A1%E5%88%9B%E6%96%B0" title="设计创新">
+                            设计创新
+                        </a>
+                        
+                    </div>
+                    <h1>优秀的产品与良好的心智模型</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                     Zoey
+                             
+                            on 
+                            Monday, May 16, 2022
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>唐·诺曼（Donald A. Norman）是美国认知科学、人因过程等设计领域的著名学者， 也是著名的尼尔森诺曼集团（Nielsen Norman Group）的创办人之一。 九十年代初，他曾以「用户体验架构师」的职称在苹果公司任职，而「用户体验设计」这个词在当时还是十分罕见。在学术方面， 诺曼专注于研究基于认知心理学的设计原则，以及如何通过设计拉近用户和产品之间的距离。诺曼的著作《设计心理学》（The Design of Everyday Things） 最初于1988年出版，而直到今天，诺曼提出的设计原则依旧在产品设计领域发挥着指导性作用。</p>
+<p>诺曼指出，如果用户在接触到新产品感到不知所措， 往往这不是用户的错，而很有可能是整个系统被设计得很糟糕。科技的发展是迅速的，但人的心智模型的转变与发展是缓慢的。 因此， 优秀的设计应当直观、可视， 并且可以给人提供良好的心智模型。 深入来说， 良好的心智模型包括了以下几个方面：</p>
+<ul>
+<li>
+<p>产品具有「可供性」（Affordance ）：「可供性」意味着产品自身可以给人操作上的提示，也就是说用户可以感知到物品如何被使用。比如一扇门需要设计成让人一看就明白是怎么开的、 是推门还是拉门等等。好的设计往往不需要用户做过多思考。 如果一个简单的设计需要用额外的图片、标识或者说明书来向用户解释， 那么这个设计已经不再「简单」。</p>
+</li>
+<li>
+<p>产品具有映射功能（Mapping）： 「映射」是数学里面的一个概念， 可以理解成建立两个物体之间的联系。比如电脑上的插孔可以让人很容易识别哪一个是键盘线接口、哪一个是鼠标线接口。</p>
+</li>
+<li>
+<p>产品具有限制功能（Constraints）：限制比较容易理解。 比如在拼乐高模型的时候，拼图之间的连接和组合并不是任意的。整个系统的拼装也具有物理限制、逻辑限制、文化限制等等。</p>
+</li>
+<li>
+<p>产品在使用过程中可以给人提供反馈（Feedback）：当前操作正在怎样进行? 是否按照预想的计划进行？如果没有应该如何修正? —— 通常，反馈会通过视觉或者听觉报警的方式提示用户。</p>
+</li>
+</ul>
+<p>不可避免地，技术具有矛盾性：我们想要通过技术给用户提供丰富的功能， 但当众多功能汇聚在一件产品上， 带给人的感受是复杂和模棱两可。 诺曼早在80年代就提出了「以用户为中心的设计」（User-centered Design ）的理念。这里说的设计并不仅满足于在视觉上给人带来美感， 而是一个广义上的概念。在系统层面上， 好的设计是不简单的， 但是给人感觉到简单。 也就是说， 好的设计可以做到「别让用户思考」。</p>
+<p>而当我们开始思考该如何创造一个好的产品的时候， 就不得不提到另一个概念 ——「设计的迭代性」。通常， 设计的过程是非线性的， 设计师和工程师需要在产品设计的不同节点上来回周转。 2005年， 英国设计协会开始用「双钻石模型」（<a href="https://www.designcouncil.org.uk/news-opinion/what-framework-innovation-design-councils-evolved-double-diamond">What is the framework for innovation? Design Council’s evolved Double Diamond</a>）来定义设计的过程， 整个过程包含了四个阶段：探索、定义、发展、传达。 在这个模型中，菱形的大小会随着项目的变化而变化， 但本质上它试图告诉我们解决设计问题或者商业项目需要不断地扩大缩小思维的边界，并且在不同节点上不断探索。</p>
+<p>参考资料/延伸阅读：</p>
+<ol>
+<li><a href="https://www.zhihu.com/question/19608055">知乎讨论：认知科学和设计领域中的 Affordance 是什么？</a></li>
+<li><a href="https://book.douban.com/subject/1365318/">The Design of Everyday Things (by Donald Norman)</a></li>
+</ol>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/xiaomis-innovation-story/xiaomis-innovation-story/" data-toggle="tooltip" data-placement="top" title="Case Study of Enterprise Innovation in China: Xiaomi&#39;s Story">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/i-turned-my-todoist-into-tore-toread-list/" data-toggle="tooltip" data-placement="top" title="I Turned My To-Do List Into a To-Read List">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/git" title="git">
+                            git
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/howto%E7%B3%BB%E5%88%97" title="howto系列">
+                            howto系列
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/tips-tools" title="tips-tools">
+                            tips-tools
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/writing" title="writing">
+                            writing
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/%E8%AE%BE%E8%AE%A1%E5%88%9B%E6%96%B0" title="设计创新">
+                            设计创新
+                        </a>
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+            
+                    
+                    <li>
+                        <a href="mailto:zoeyd_tc@outlook.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/ztcn360">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+            
+            <li>
+                <a href='' rel="alternate" type="application/rss+xml" title="ZTCN.360" >
+                    <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+                  
+    
+    
+                </ul>
+		<p class="copyright text-muted"style="font-size:8pt;">
+                    
+                    <br>
+                    A  <a href="https://gohugo.io/">HUGO</a>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite</a> page build with ♥ 
+                    | Header image by <a href="https://unsplash.com/photos/_-e7xIOyXNA">Kelly Sikkema</a>
+<br>
+                    © Zoey Ding 2022. All rights reserved.  
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+</body>
+</html>
